@@ -8,7 +8,7 @@ pipeline {
         stages {
             stage('Cloning Git') {
                 steps {
-                    git 'https://github.com/agf46/simple-java-maven-app.git'
+                    git 'https://github.com/agf46/docker-dvwa.git'
                 }
             }
             stage('Building Image') {
